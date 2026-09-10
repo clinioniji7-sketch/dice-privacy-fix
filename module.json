@@ -1,0 +1,27 @@
+{
+  "id": "dice-privacy-fix",
+  "title": "Dice Privacy Fix",
+  "description": "Corrige a visibilidade das animações do Dice So Nice em rolagens privadas disparadas por cards de sistemas personalizados.",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Clinio Niji" }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/dice-privacy-fix.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/clinioniji7-sketch/dice-privacy-fix/main/module.json",
+  "download": "https://github.com/clinioniji7-sketch/dice-privacy-fix/archive/refs/heads/main.zip"
+}
